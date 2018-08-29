@@ -15,7 +15,7 @@ end
 Capybara.default_driver = :chrome_driver
 Capybara.javascript_driver = :chrome_driver
 Capybara.run_server = false
-Capybara.app_host = 'https://www.google.com/'
+Capybara.app_host = 'https://sm-stg.seralogix.com/'
 Capybara.default_max_wait_time = 60
 
 # Rspec configuration
