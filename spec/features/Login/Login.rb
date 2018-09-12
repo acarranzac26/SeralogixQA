@@ -12,4 +12,13 @@ feature "As an Admin user ", :js => true do
     sleep(15)
     click_on(sign-in-btn)
   end
+
+  scenario "I am able to login into Seralogix using Keep me signed in option" do
+    visit('/')
+    fill_in('mat-input-1', :with => admin_user)
+    fill_in('mat-input-2', :with => admin_password)
+    check(mat-checkbox-1)
+    sleep(15)
+    click_on(sign-in-btn)
+  end
 end
