@@ -1,6 +1,6 @@
 # This file is copied to spec/ when you run 'rails generate rspec:install'
 require 'rubygems'
-
+require 'rspec/expectations'
 require 'capybara'
 require 'capybara/rspec'
 
@@ -15,7 +15,7 @@ end
 Capybara.default_driver = :chrome_driver
 Capybara.javascript_driver = :chrome_driver
 Capybara.run_server = false
-Capybara.app_host = 'https://sm-stg.seralogix.com/'
+Capybara.app_host = 'https://sm-qa.seralogix.com/sign-in'
 Capybara.default_max_wait_time = 60
 
 # Rspec configuration
