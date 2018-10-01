@@ -15,8 +15,8 @@ end
 Capybara.default_driver = :chrome_driver
 Capybara.javascript_driver = :chrome_driver
 Capybara.run_server = false
-Capybara.app_host = 'https://sm-qa.seralogix.com/sign-in'
-Capybara.default_max_wait_time = 60
+Capybara.app_host = 'https://sm-qa.seralogix.com/'
+Capybara.default_max_wait_time = 15
 
 # Rspec configuration
 RSpec.configure do |config|
